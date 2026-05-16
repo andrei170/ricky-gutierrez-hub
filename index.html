@@ -3,755 +3,312 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Built For Ricky Gutierrez · AG1 Consulting</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<title>For Ricky - The Four-Piece Funnel Install + Less-Than-7-Day Plan - AG1 Consulting</title>
+<meta name="description" content="Built for Ricky Gutierrez. Four things I would build first if I were stepping into the Learn Plan Profit funnel today. All install in under 7 days from kickoff.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="The Four-Piece Funnel Install - For Ricky">
+<meta property="og:description" content="VSL, scorecard, mid-tier cohort, daily-live email capture. Built on top of the existing LPP infrastructure.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrei170.github.io/ricky-gutierrez-hub/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0805;--bg-2:#110e0a;--surface:#1a160f;--surface-2:#221c12;--line:rgba(201,151,58,.15);--line-2:rgba(201,151,58,.3);--text:#f8f3e8;--muted:#a69885;--gold:#c9973a;--gold-2:#e2b96a;--gold-3:#f0d79a;--red:#c97a3a}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;line-height:1.65;overflow-x:hidden}
-body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,rgba(201,151,58,.025) 1px,transparent 1px);background-size:24px 24px;pointer-events:none;z-index:0}
-body::after{content:'';position:fixed;top:-30%;right:-10%;width:70%;height:80%;background:radial-gradient(circle,rgba(201,151,58,.07) 0%,transparent 60%);pointer-events:none;z-index:0}
-.container{max-width:1100px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
-.container-narrow{max-width:820px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
-nav{padding:24px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(10,8,5,.94);backdrop-filter:blur(14px);z-index:100}
-.nav-inner{display:flex;justify-content:space-between;align-items:center}
-.logo{font-weight:800;font-size:18px;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-3) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:.18em;text-transform:uppercase}
-.nav-cta{padding:10px 22px;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-2) 100%);color:#0a0805;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px}
-section{padding:80px 0}
-.hero{padding:100px 0 60px;text-align:center}
-.eyebrow{display:inline-block;padding:6px 16px;background:rgba(201,151,58,.1);border:1px solid rgba(201,151,58,.3);border-radius:24px;font-size:12px;font-weight:600;color:var(--gold-2);letter-spacing:.2em;text-transform:uppercase;margin-bottom:28px}
-h1{font-size:clamp(40px,5.6vw,64px);font-weight:800;line-height:1.06;letter-spacing:-.03em;margin-bottom:24px}
-h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-3) 50%,var(--gold-2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-h2{font-size:clamp(28px,3.8vw,40px);font-weight:700;line-height:1.15;letter-spacing:-.02em;margin-bottom:16px}
-.section-sub{color:var(--muted);font-size:18px;margin-bottom:48px;max-width:680px}
-h3{font-size:22px;font-weight:700;color:var(--text);margin-bottom:10px}
-h4{font-size:14px;color:var(--gold-2);text-transform:uppercase;letter-spacing:.14em;margin:24px 0 12px;font-weight:700}
-p{color:var(--muted);font-size:17px;max-width:680px}
-.hero p{font-size:19px;margin:0 auto 40px;color:var(--muted)}
-.meta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:56px;padding:32px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.meta-item{text-align:center}
-.meta-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.15em;margin-bottom:10px}
-.meta-value{font-size:20px;color:var(--text);font-weight:700;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-3) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.prose p{margin-bottom:18px;font-size:17px}
-.prose p:last-child{margin-bottom:0}
-.prose strong{color:var(--text);font-weight:600}
-.prose blockquote{margin:24px 0;padding:20px 26px;background:rgba(201,151,58,.06);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;font-size:18px;color:var(--text);font-style:italic;line-height:1.55}
-.prose blockquote .quote-attr{display:block;margin-top:10px;font-size:13px;color:var(--gold-2);font-style:normal;letter-spacing:.05em}
-.signature{margin-top:32px;font-size:15px;color:var(--gold-2);font-style:italic}
-.gap-grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:8px}
-.gap-card{background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:14px;padding:32px;transition:.3s}
-.gap-card:hover{border-color:var(--line-2)}
-.gap-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:4px 10px;border-radius:4px;margin-bottom:14px}
-.gap-tag.critical{background:rgba(201,122,58,.15);color:var(--red);border:1px solid rgba(201,122,58,.3)}
-.gap-tag.high{background:rgba(201,151,58,.12);color:var(--gold-2);border:1px solid rgba(201,151,58,.3)}
-.gap-card h3{margin-bottom:14px}
-.gap-card p{font-size:16px;margin-bottom:14px}
-.gap-card .fix{padding-top:14px;border-top:1px solid var(--line);font-size:15px}
-.gap-card .fix strong{color:var(--gold-2);text-transform:uppercase;letter-spacing:.1em;font-size:12px;display:block;margin-bottom:6px}
-.market-table{display:flex;flex-direction:column;gap:14px;margin-top:8px}
-.market-row{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:24px 28px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:12px;align-items:start}
-.market-name{font-weight:700;color:var(--text);font-size:17px}
-.market-price{font-size:13px;color:var(--gold-2);margin-top:4px;letter-spacing:.05em}
-.market-note{font-size:15px;color:var(--muted);line-height:1.6}
-.market-callout{margin-top:24px;padding:24px 28px;background:rgba(201,151,58,.06);border:1px solid var(--line-2);border-radius:12px;font-size:16px;color:var(--text)}
-.market-callout strong{color:var(--gold-2)}
-.phase-block{display:grid;grid-template-columns:120px 1fr;gap:32px;padding:36px 0;border-bottom:1px solid var(--line)}
-.phase-block:last-child{border-bottom:0}
-.phase-num{font-family:monospace;font-size:14px;color:var(--gold-2);letter-spacing:.15em;font-weight:700}
-.phase-num .month{display:block;color:var(--muted);font-size:11px;margin-top:6px;letter-spacing:.1em}
-.phase-content h3{margin-bottom:14px;font-size:24px}
-.phase-content ul{list-style:none;padding:0;margin:14px 0}
-.phase-content li{padding:6px 0 6px 22px;position:relative;color:var(--muted);font-size:16px}
-.phase-content li::before{content:'';width:6px;height:6px;background:var(--gold);border-radius:50%;position:absolute;left:0;top:14px}
-.phase-content .rev-line{margin-top:18px;padding:14px 18px;background:rgba(201,151,58,.06);border-left:2px solid var(--gold);border-radius:0 8px 8px 0;font-size:15px;color:var(--text)}
-.phase-content .rev-line strong{color:var(--gold-2);text-transform:uppercase;letter-spacing:.1em;font-size:11px;display:block;margin-bottom:4px;font-weight:700}
-.rev-table{margin-top:8px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line-2);border-radius:14px;padding:32px;overflow:hidden}
-.rev-row{display:grid;grid-template-columns:1fr auto;gap:32px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.rev-row:last-of-type{border-bottom:0}
-.rev-stream{color:var(--muted);font-size:16px}
-.rev-stream strong{color:var(--text);font-weight:600;display:block;margin-bottom:2px}
-.rev-amount{font-size:22px;font-weight:700;color:var(--gold-2);font-family:monospace;white-space:nowrap}
-.rev-total{margin-top:18px;padding-top:24px;border-top:2px solid var(--line-2);display:grid;grid-template-columns:1fr auto;gap:32px;align-items:baseline}
-.rev-total-label{font-size:14px;color:var(--gold-2);text-transform:uppercase;letter-spacing:.15em;font-weight:700}
-.rev-total-amount{font-size:32px;font-weight:800;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-3) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:monospace;white-space:nowrap}
-.rev-note{margin-top:24px;padding:20px 24px;background:rgba(201,151,58,.06);border:1px solid var(--line);border-radius:10px;font-size:15px;color:var(--text)}
-.rev-note strong{color:var(--gold-2)}
-.rev-caveat{margin-top:14px;padding:14px 18px;border:1px dashed var(--line-2);border-radius:8px;font-size:13px;color:var(--muted);font-family:'Inter',sans-serif}
-.rev-caveat strong{color:var(--gold-2);text-transform:uppercase;letter-spacing:.12em;font-size:11px;display:block;margin-bottom:4px}
-.proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
-.proof-card{padding:36px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:14px}
-.proof-card h3{font-size:20px;margin-bottom:6px}
-.proof-card .role{font-size:12px;color:var(--gold-2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:18px;font-weight:700}
-.proof-card p{font-size:15px;line-height:1.7}
-.offer-block{padding:48px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line-2);border-radius:18px}
-.offer-block h3{font-size:24px;margin-bottom:8px}
-.offer-block .scope-intro{color:var(--muted);font-size:16px;margin-bottom:28px}
-.scope-list{list-style:none;padding:0;margin:0}
-.scope-list li{padding:14px 0 14px 36px;position:relative;color:var(--text);font-size:16px;border-bottom:1px solid var(--line)}
-.scope-list li:last-child{border-bottom:0}
-.scope-list li::before{content:'';width:18px;height:18px;border:1.5px solid var(--gold);border-radius:50%;position:absolute;left:0;top:18px;background:rgba(201,151,58,.08)}
-.scope-list li::after{content:'';width:6px;height:10px;border-right:2px solid var(--gold-2);border-bottom:2px solid var(--gold-2);transform:rotate(45deg);position:absolute;left:6px;top:20px}
-.offer-block .price-note{margin-top:32px;padding-top:28px;border-top:1px solid var(--line-2);font-size:15px;color:var(--gold-2);text-align:center}
-.faq-item{border-bottom:1px solid var(--line);padding:0}
-.faq-q{padding:24px 0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:18px;font-weight:600;color:var(--text);transition:.2s}
-.faq-q:hover{color:var(--gold-2)}
-.faq-toggle{width:24px;height:24px;border-radius:50%;border:1px solid var(--line-2);position:relative;flex-shrink:0;transition:.3s}
-.faq-toggle::before,.faq-toggle::after{content:'';position:absolute;background:var(--gold-2);top:50%;left:50%;transition:.3s}
-.faq-toggle::before{width:10px;height:1.5px;transform:translate(-50%,-50%)}
-.faq-toggle::after{width:1.5px;height:10px;transform:translate(-50%,-50%)}
-.faq-item.open .faq-toggle::after{opacity:0}
-.faq-a{max-height:0;overflow:hidden;transition:.4s}
-.faq-item.open .faq-a{max-height:600px;padding-bottom:24px}
-.faq-a p{font-size:16px;color:var(--muted);max-width:none}
-.cta-section{background:linear-gradient(135deg,rgba(201,151,58,.1) 0%,rgba(226,185,106,.04) 100%);border:1px solid rgba(201,151,58,.3);border-radius:24px;padding:80px 60px;text-align:center;margin:40px 0 60px}
-.cta-section h2{max-width:620px;margin:0 auto 20px}
-.cta-section p{margin:0 auto 36px;max-width:560px;font-size:17px}
-.cta-primary{display:inline-block;padding:20px 44px;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-2) 100%);color:#0a0805;text-decoration:none;border-radius:12px;font-weight:700;font-size:16px;box-shadow:0 12px 40px rgba(201,151,58,.3);transition:.2s}
-.cta-primary:hover{transform:translateY(-2px)}
-.cta-sign{margin-top:28px;font-size:14px;color:var(--gold-2);font-style:italic}
-.hero-cta-row{margin-top:36px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-.cta-outline{display:inline-block;padding:18px 36px;background:transparent;color:var(--gold-2);text-decoration:none;border:1px solid var(--line-2);border-radius:12px;font-weight:600;font-size:15px;transition:.2s}
-.cta-outline:hover{border-color:var(--gold-2)}
-.footer{padding:48px 0;border-top:1px solid var(--line);text-align:center}
-.footer p{margin:0 auto;font-size:13px;color:var(--muted);letter-spacing:.05em}
-@media(max-width:768px){
-.meta-grid{grid-template-columns:1fr}
-.cta-section{padding:50px 24px}
-.market-row{grid-template-columns:1fr;gap:8px}
-.phase-block{grid-template-columns:1fr;gap:8px}
-.proof-grid{grid-template-columns:1fr}
-.offer-block{padding:32px 24px}
-section{padding:60px 0}
-}
-.moat-callout{margin-top:32px;padding:32px 36px;background:linear-gradient(135deg,rgba(201,151,58,.08) 0%,rgba(226,185,106,.03) 100%);border:1px solid var(--line-2);border-radius:14px}
-.moat-eyebrow{font-size:11px;color:var(--gold-2);text-transform:uppercase;letter-spacing:.18em;font-weight:700;margin-bottom:12px}
-.moat-callout p{font-size:18px;color:var(--text);margin:0;max-width:none;line-height:1.6}
-.moat-callout p strong{color:var(--gold-2)}
-.agenda-block{padding:40px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:14px}
-.agenda-item{display:grid;grid-template-columns:90px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line);align-items:start}
-.agenda-item:last-child{border-bottom:0;padding-bottom:0}
-.agenda-item:first-child{padding-top:0}
-.agenda-time{font-family:monospace;color:var(--gold-2);font-weight:700;font-size:14px;letter-spacing:.05em;padding-top:4px}
-.agenda-content h4{font-size:16px;color:var(--text);text-transform:none;letter-spacing:0;margin:0 0 6px;font-weight:600}
-.agenda-content p{color:var(--muted);font-size:14px;margin:0;max-width:none;line-height:1.5}
-.contrast-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
-.contrast-card{padding:36px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:14px}
-.contrast-card.current{opacity:.7}
-.contrast-card.future{border-color:var(--line-2);background:linear-gradient(180deg,rgba(201,151,58,.06) 0%,var(--bg-2) 100%)}
-.contrast-tag{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:4px 10px;border-radius:4px;margin-bottom:14px;display:inline-block}
-.contrast-card.current .contrast-tag{background:rgba(166,152,133,.15);color:var(--muted);border:1px solid rgba(166,152,133,.3)}
-.contrast-card.future .contrast-tag{background:rgba(201,151,58,.15);color:var(--gold-2);border:1px solid rgba(201,151,58,.3)}
-.contrast-card h3{margin-bottom:18px;font-size:20px}
-.contrast-card ul{list-style:none;padding:0;margin:0}
-.contrast-card li{padding:8px 0 8px 22px;position:relative;color:var(--muted);font-size:15px;line-height:1.6}
-.contrast-card.current li::before{content:'';width:6px;height:6px;background:var(--muted);border-radius:50%;position:absolute;left:0;top:14px;opacity:.5}
-.contrast-card.future li::before{content:'';width:6px;height:6px;background:var(--gold);border-radius:50%;position:absolute;left:0;top:14px}
-.premium-table{margin-top:24px;border-color:var(--line-2)!important;background:linear-gradient(180deg,rgba(201,151,58,.04) 0%,var(--bg-2) 100%)!important}
-.premium-eyebrow{display:inline-block;padding:5px 14px;background:rgba(201,151,58,.15);border:1px solid var(--line-2);border-radius:24px;font-size:11px;font-weight:700;color:var(--gold-2);letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}
-.asset-table{background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:14px;padding:8px 32px;margin-top:8px}
-.asset-row{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.asset-row:last-child{border-bottom:0}
-.asset-row.asset-header{padding:24px 0 18px}
-.asset-col-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.15em;font-weight:700}
-.asset-col-label.asset-built-label{color:var(--gold-2)}
-.asset-cat{font-size:14px;color:var(--muted);font-weight:500}
-.asset-val{font-size:17px;font-weight:600}
-.asset-today{color:var(--muted);opacity:.75}
-.asset-built{color:var(--gold-2)}
-.anti-hype{margin-top:32px;padding:32px 36px;background:rgba(0,0,0,.18);border:1px dashed var(--line-2);border-radius:14px}
-.anti-hype-eyebrow{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.18em;font-weight:700;margin-bottom:18px}
-.anti-hype-list{list-style:none;padding:0;margin:0 0 20px}
-.anti-hype-list li{padding:6px 0 6px 26px;position:relative;color:var(--muted);font-size:15px;line-height:1.6}
-.anti-hype-list li::before{content:'×';position:absolute;left:0;top:2px;color:var(--red);font-size:20px;font-weight:700;line-height:1}
-.anti-hype p{font-size:15px;color:var(--text);margin:0;max-width:none;line-height:1.7}
-.anti-hype p strong{color:var(--gold-2)}
-.call-agenda{text-align:left;max-width:520px;margin:0 auto 32px;display:grid;gap:14px}
-.call-agenda-item{display:grid;grid-template-columns:32px 1fr;gap:16px;align-items:start}
-.call-agenda-num{font-family:monospace;color:var(--gold-2);font-weight:700;font-size:14px;padding-top:2px}
-.call-agenda-text{color:var(--text);font-size:15px;line-height:1.6}
-@media(max-width:768px){.contrast-grid{grid-template-columns:1fr}.agenda-block{padding:28px 20px}.agenda-item{grid-template-columns:1fr;gap:4px}.moat-callout{padding:24px}.asset-table{padding:8px 20px}.asset-row{grid-template-columns:1fr;gap:6px;padding:14px 0}.asset-row.asset-header{display:none}.asset-cat{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold-2)}.anti-hype{padding:24px}}
-.floating-cta{position:fixed;bottom:24px;right:24px;padding:16px 28px;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-2) 100%);color:#0a0805;text-decoration:none;border-radius:12px;font-weight:700;font-size:14px;box-shadow:0 12px 40px rgba(201,151,58,.4);z-index:1000;transition:.2s}
-.floating-cta:hover{transform:translateY(-2px)}
-@media(max-width:768px){.floating-cta{bottom:16px;right:16px;padding:14px 22px;font-size:13px}}
-.cred-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
-.cred-card{padding:28px 24px;background:linear-gradient(180deg,rgba(201,151,58,.06) 0%,var(--bg-2) 100%);border:1px solid var(--line-2);border-radius:14px;text-align:center}
-.cred-stat{font-size:30px;font-weight:800;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-3) 50%,var(--gold-2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:monospace;letter-spacing:-.02em;margin-bottom:10px;line-height:1.05}
-.cred-label{font-size:13px;color:var(--muted);line-height:1.5;letter-spacing:.02em}
-.cred-disclaimer{margin-top:24px;padding:16px 22px;border:1px dashed var(--line-2);border-radius:10px;font-size:13px;color:var(--muted);text-align:center;letter-spacing:.02em}
-.cred-disclaimer strong{color:var(--gold-2);text-transform:uppercase;letter-spacing:.12em;font-size:11px}
-@media(max-width:768px){.cred-grid{grid-template-columns:1fr 1fr}.cred-stat{font-size:24px}}
-.reveal{opacity:0;transform:translateY(30px);transition:.8s}
-.reveal.in{opacity:1;transform:translateY(0)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg-deep:#050506;--bg-elev:#0e0e10;--bg-card:rgba(20,20,24,0.65);--gold:#d4af37;--gold-bright:#ecc88a;--text-primary:#ece9e3;--text-secondary:#a09c93;--text-muted:#6c685f;--border:rgba(212,175,55,0.18);--border-strong:rgba(212,175,55,0.42);--accent-soft:rgba(212,175,55,0.08);--risk-red:#dc4040;--risk-soft:rgba(220,64,64,0.08);--risk-border:rgba(220,64,64,0.35)}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg-deep);color:var(--text-primary);line-height:1.65;overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 12% 6%,rgba(212,175,55,0.07),transparent 45%),radial-gradient(circle at 88% 88%,rgba(212,175,55,0.05),transparent 45%);pointer-events:none;z-index:0}
+  .container{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  .container-narrow{max-width:820px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1.15}
+  nav{position:fixed;top:0;left:0;right:0;padding:16px 0;background:rgba(5,5,6,0.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
+  .nav-inner{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 28px}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;letter-spacing:0.04em}
+  .nav-cta{padding:9px 22px;background:var(--gold);color:var(--bg-deep);border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease}
+  .nav-cta:hover{background:var(--gold-bright);transform:translateY(-1px)}
+  .hero{padding:140px 0 60px;text-align:center}
+  .eyebrow{display:inline-block;padding:8px 18px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold-bright);margin-bottom:32px}
+  .hero h1{font-size:clamp(38px,5.5vw,62px);line-height:1.05;margin-bottom:20px;color:var(--text-primary);max-width:880px;margin-left:auto;margin-right:auto;text-wrap:balance}
+  .hero h1 em{color:var(--gold);font-style:italic;font-weight:400}
+  .hero h2{font-size:clamp(18px,2.3vw,24px);font-weight:400;color:var(--text-secondary);margin-bottom:32px;max-width:760px;margin-left:auto;margin-right:auto;line-height:1.55;text-wrap:balance}
+  .hero h2 em{color:var(--gold-bright);font-style:italic}
+  .cta-primary{display:inline-block;padding:18px 40px;background:var(--gold);color:var(--bg-deep);border-radius:2px;font-size:13px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(212,175,55,0.22)}
+  .cta-primary:hover{background:var(--gold-bright);transform:translateY(-2px)}
+  .brand-note{margin-top:26px;font-size:12px;color:var(--text-muted);font-style:italic;max-width:680px;margin-left:auto;margin-right:auto}
+  section{padding:70px 0}
+  .section-eyebrow{font-size:11px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  .section-title{font-size:clamp(30px,4vw,46px);margin-bottom:18px;max-width:880px;line-height:1.12}
+  .section-title em{color:var(--gold);font-style:italic;font-weight:400}
+  .section-sub{font-size:16px;color:var(--text-secondary);max-width:780px;margin-bottom:36px;line-height:1.7}
+  .section-sub strong{color:var(--gold-bright);font-weight:600}
+  .video-label{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;text-align:center}
+  .video-wrap{position:relative;padding-bottom:56.25%;margin:24px auto;max-width:780px;border-radius:4px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:0 30px 80px rgba(0,0,0,0.6);background:#000;cursor:pointer}
+  .video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+  .video-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at center,rgba(212,175,55,0.16),transparent 60%),linear-gradient(135deg,#101620,#050506)}
+  .video-poster .play-btn{position:absolute;width:84px;height:84px;border-radius:50%;background:rgba(212,175,55,0.92);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(212,175,55,0.5);transition:all 0.3s ease;border:3px solid rgba(255,255,255,0.95)}
+  .video-wrap:hover .video-poster .play-btn{transform:scale(1.08);background:var(--gold-bright)}
+  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #050506;margin-left:6px}
+  .video-poster .video-src{position:absolute;bottom:14px;right:18px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-secondary);background:rgba(0,0,0,0.65);padding:6px 12px;border-radius:2px}
+  .video-note{font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;max-width:680px;margin:0 auto 28px;text-align:center;line-height:1.55}
+  .stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:26px 0;margin:28px 0}
+  .stat-item{text-align:center;padding:0 14px;border-right:1px solid var(--border)}
+  .stat-item:last-child{border-right:0}
+  .stat-num{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--gold);font-weight:600;line-height:1;margin-bottom:6px}
+  .stat-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-muted)}
+  @media(max-width:880px){.stats-grid{grid-template-columns:repeat(2,1fr);gap:14px;border-bottom:0}.stat-item{border-right:0;border-bottom:1px solid var(--border);padding:14px 6px}.stat-num{font-size:26px}}
+  .piece-grid{display:grid;grid-template-columns:1fr;gap:22px;margin-top:32px}
+  .piece-card{padding:34px 30px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;backdrop-filter:blur(10px)}
+  .piece-card .impact-tag{display:inline-block;padding:5px 12px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:2px;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  .piece-card .num{font-family:'Cormorant Garamond',serif;font-size:46px;color:var(--gold);font-weight:600;line-height:1;display:inline-block;margin-right:14px;vertical-align:baseline}
+  .piece-card h3{font-size:23px;color:var(--text-primary);display:inline-block;vertical-align:baseline;max-width:calc(100% - 70px)}
+  .piece-card p{color:var(--text-secondary);font-size:15px;line-height:1.7;margin-top:14px;margin-bottom:14px}
+  .piece-card .service-line{margin-top:16px;padding:14px 18px;background:var(--accent-soft);border-left:3px solid var(--gold);border-radius:2px;font-size:14px;color:var(--gold-bright);line-height:1.6;font-style:italic}
+  .piece-card .impact{margin-top:18px;padding-top:18px;border-top:1px solid var(--border);font-family:'Cormorant Garamond',serif;font-size:17px;color:var(--gold-bright);font-style:italic;line-height:1.5}
+  .install-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-top:32px}
+  @media(max-width:760px){.install-grid{grid-template-columns:repeat(2,1fr)}}
+  .install-day{padding:18px 14px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;text-align:left}
+  .install-day .day-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:8px}
+  .install-day p{font-size:12px;color:var(--text-secondary);line-height:1.5}
+  .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px}
+  @media(max-width:760px){.compare-grid{grid-template-columns:1fr}}
+  .compare-col{padding:32px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px}
+  .compare-col.future{border-color:var(--border-strong);background:linear-gradient(135deg,var(--bg-card),var(--accent-soft))}
+  .compare-col .comp-label{display:block;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;font-weight:600}
+  .compare-col h3{font-size:21px;margin-bottom:18px;color:var(--text-primary)}
+  .compare-col ul{list-style:none;padding:0;margin:0}
+  .compare-col li{padding:9px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid var(--border);line-height:1.55;display:flex;gap:10px}
+  .compare-col li:last-child{border-bottom:0}
+  .compare-col li::before{content:"\2192";color:var(--gold);font-weight:bold;flex-shrink:0}
+  .deliverables-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+  @media(max-width:900px){.deliverables-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.deliverables-grid{grid-template-columns:1fr}}
+  .del-card{padding:26px 22px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;backdrop-filter:blur(8px);transition:all 0.3s ease;display:flex;flex-direction:column}
+  .del-card:hover{border-color:var(--border-strong);transform:translateY(-2px)}
+  .del-card .tag{display:inline-block;padding:3px 10px;background:var(--accent-soft);border:1px solid var(--border);border-radius:2px;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;align-self:flex-start}
+  .del-card h3{font-size:19px;margin-bottom:10px;color:var(--text-primary);font-weight:500}
+  .del-card p{color:var(--text-muted);font-size:13px;line-height:1.55;margin-bottom:16px;flex-grow:1}
+  .del-card a{color:var(--gold);font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;border-top:1px solid var(--border);padding-top:14px;margin-top:auto}
+  .del-card a:hover{color:var(--gold-bright)}
+  .risk-callout{margin-top:32px;padding:24px 26px;background:var(--risk-soft);border-left:3px solid var(--risk-red);border-radius:2px;line-height:1.7}
+  .risk-callout .risk-label{display:block;font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:#ff7a7a;margin-bottom:10px;font-weight:700}
+  .risk-callout p{color:#e2b5b5;font-size:14px;margin:0;line-height:1.7}
+  .final-cta{text-align:center;padding:100px 0;border-top:1px solid var(--border);margin-top:40px}
+  .final-cta h2{font-size:clamp(30px,4vw,46px);margin-bottom:24px;max-width:780px;margin-left:auto;margin-right:auto}
+  .final-cta h2 em{color:var(--gold);font-style:italic;font-weight:400}
+  .final-cta p{font-size:16px;color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.65}
+  .final-cta .tagline{margin-top:36px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--text-primary)}
+  footer{padding:40px 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:12px;line-height:1.7}
+  footer .footer-disclaimer{margin-top:14px;font-size:11px;color:var(--text-muted);font-style:italic;max-width:680px;margin:14px auto 0;line-height:1.6}
 </style>
 </head>
 <body>
 <nav>
-<div class="container nav-inner">
-<div class="logo">AG1 Consulting</div>
-<a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta" target="_blank">Book A Call</a>
-</div>
+  <div class="nav-inner">
+    <div class="logo">AG1 &middot; For Ricky</div>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta">Book A Call</a>
+  </div>
 </nav>
 
 <section class="hero">
-<div class="container">
-<div class="eyebrow reveal">Built For Ricky Gutierrez</div>
-<h1 class="reveal">Built For <em>Learn Plan Profit</em><br>AG1 Consulting</h1>
-<p class="reveal">1.6M+ YouTube subscribers. 294K Instagram. 1,000+ traders inside the LPP Group Chat. Daily live trading sessions on YouTube at 9:30 AM EST. Forbes and Business Insider features. The Learn Plan Profit 3.0 course at $699 is selling steady, the brand is bilingual and beginner-first, and the audience is real. The ladder above the course is not yet built.</p>
-<div class="meta-grid reveal">
-<div class="meta-item"><div class="meta-label">YouTube subs</div><div class="meta-value">1.6M+</div></div>
-<div class="meta-item"><div class="meta-label">Instagram</div><div class="meta-value">294K+</div></div>
-<div class="meta-item"><div class="meta-label">LPP Group Chat</div><div class="meta-value">1,000+ traders</div></div>
-<div class="meta-item"><div class="meta-label">Cohort tier opportunity</div><div class="meta-value">$420K+/yr</div></div>
-</div>
-<div class="hero-cta-row reveal">
-<a href="https://andrei170.github.io/ricky-gutierrez-mastermind/" target="_blank" class="cta-primary" style="padding:18px 40px;font-size:16px;border-radius:12px;box-shadow:0 12px 40px rgba(201,151,58,.3)">See The Live Demo →</a>
-<a href="https://calendly.com/ag-copy/call-with-andrei" target="_blank" class="cta-outline">Book A Call</a>
-</div>
-</div>
+  <div class="container-narrow">
+    <div class="eyebrow">Built For Ricky Gutierrez &middot; Learn Plan Profit Funnel Plan</div>
+    <h1>The pre-sell, the qualifier, the cohort, <em>and the daily-live capture.</em></h1>
+    <h2>Four installs that sit on top of the LPP infrastructure. <em>Less than 7 days from kickoff.</em></h2>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary">Walk The Plan With Andrei</a>
+    <p class="brand-note">Sample hub built in AG1 brand colours. Brand colours and copy lock with Ricky on day one of the install.</p>
+  </div>
 </section>
 
 <section>
-<div class="container-narrow"><h2 class="reveal">Why This Page Exists</h2>
-<div class="prose reveal">
-<p>You've already done the hard part. Most operators in the day-trading education space don't have a brand built on transparency, an audience the size of a mid-cap broker's marketing reach, and a paid product priced at the floor of the category. You do.</p>
-<p>The Learn Plan Profit 3.0 course sits at $699 lifetime on learn-plan-profit.teachable.com. Direct Teachable checkout, no application gate, no phone close. The 1ADAY coupon code framing makes the price feel near-zero on the homepage. YouTube ships at <strong>1.6M+ subscribers</strong> with daily 9:30 AM EST live trading sessions visible to anyone. The IG @rickygutierrezz sits at 294K. The Forbes and Business Insider feature logos run on learnplanprofit.net. The Techbuds Trading HQ in Arizona is referenced inside LPP 3.0 as physical-room access. The brand is locked in: bilingual, beginner-first, transparent, no-Lambo, daily-live-trade.</p>
-<p>So this page is not a "here's how to build a day-trading audience" pitch. You're past that.</p>
-<blockquote>"Learn. Plan. Profit." The three-word frame on the homepage logo and the course name. The brand DNA in three words: structure before speculation.<span class="quote-attr">- learnplanprofit.net</span></blockquote>
-<p>That positioning is the moat. The pitch this page makes is that the ladder above the $699 course has unfilled tiers, and three specific funnel leak points are observable from outside.</p>
-<p>This page is the version that lands when the brand is already built. After studying the public surfaces (learnplanprofit.net, the Teachable LPP 3.0 sales page, the YouTube channel cadence, the IG content, the daily live trade recordings, the Forbes feature, the Techbuds HQ references in third-party reviews), three specific leak points are visible from outside. None of them are foundation-level. All three are the kind of revenue lift that compounds inside a brand already running at 1.6M+ subscriber scale.</p>
-<p>And here's the strategic timing. The day-trading education category is now contested by every $497 small-account influencer running variations of the daily-live-trade format you helped popularise during the 2017-2021 retail boom. The window for the operator who built the bilingual, beginner-first, daily-transparency brand to capture the premium tier above all of them is open right now. <strong>Operators with brand-scale reach get to charge a different number than operators copying the niche.</strong></p>
-<p>The build below is sized for that. Conservative numbers. Phased over four months. Built around the funnel you already run, not against it.</p>
-<div class="signature">- Andrei | AG1 Consulting</div>
-</div>
-</div>
+  <div class="container">
+    <div class="section-eyebrow">The One-Sentence Read</div>
+    <h2 class="section-title">The LPP ladder is one step deep, <em>and the buy decision is made on a static page.</em></h2>
+    <p class="section-sub">1.2M YouTube subscribers, 294K Instagram followers, and 1,000+ traders inside the LPP Group Chat - all routed to a static text-and-image marketing page with no VSL, no readiness step, and no tier above the existing course. The four installs in this hub patch the funnel without changing the brand or rebuilding the course.</p>
+
+    <div class="stats-grid">
+      <div class="stat-item"><div class="stat-num">1.2M+</div><div class="stat-label">YouTube</div></div>
+      <div class="stat-item"><div class="stat-num">294K</div><div class="stat-label">Instagram</div></div>
+      <div class="stat-item"><div class="stat-num">1,000+</div><div class="stat-label">LPP Group Chat</div></div>
+      <div class="stat-item"><div class="stat-num">9:30 AM</div><div class="stat-label">Daily Live EST</div></div>
+      <div class="stat-item"><div class="stat-num">0</div><div class="stat-label">VSL On Buy Page</div></div>
+    </div>
+
+    <p class="video-label">A Sample From Ricky's YouTube</p>
+    <div class="video-wrap" id="hero-video" role="button" tabindex="0" aria-label="Play sample video">
+      <div class="video-poster">
+        <div class="play-btn"></div>
+        <span class="video-src">YouTube &middot; Ricky Gutierrez</span>
+      </div>
+    </div>
+    <p class="video-note">Sample pulled from Ricky's YouTube to visualise the daily-live analyst voice. Swap to a custom 5-7 minute VSL on day one of the install.</p>
+  </div>
 </section>
 
-<section style="background:linear-gradient(180deg,transparent 0%,rgba(201,151,58,.03) 50%,transparent 100%)">
-<div class="container">
-<div class="eyebrow reveal">The Leak Points</div>
-<h2 class="reveal">Three Places The Funnel Currently Underconverts</h2>
-<p class="section-sub reveal">All publicly observable. Nothing fabricated about backend systems we can't see.</p>
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,55,0.04),transparent)">
+  <div class="container">
+    <div class="section-eyebrow">The Four Pieces</div>
+    <h2 class="section-title">Four installs. <em>Sit on top of the existing funnel.</em></h2>
+    <p class="section-sub">No course rebuild. No re-platform. No brand pivot. The four pieces patch the gaps between the YouTube voice, the buy decision, and the warm alumni list.</p>
 
-<div class="gap-grid">
-<div class="gap-card reveal">
-<span class="gap-tag critical">Critical</span>
-<h3>No VSL Or Indoctrination Video On The LPP Sales Page</h3>
-<p>The learnplanprofit.net homepage is static text plus an image, with Forbes and Business Insider logos and the "$1 a day with coupon 1ADAY" framing. The Teachable LPP 3.0 sales page is a curriculum bullet list with a "Sign Up" button. There is no embedded video on either page. No 5-12 minute walkthrough explaining the Learn-Plan-Profit methodology, the daily live-trade discipline, the difference between the free YouTube content and the paid LPP 3.0 curriculum, or the Techbuds HQ access inside the course. Cold traffic from <strong>1.6M+ YouTube subscribers and 294K IG followers</strong> arrives on a static page with no bridge between your daily YouTube voice and the buy decision. Andrew Aziz at Bear Bull Traders, Mark Minervini at Master Trader, and Cameron Fous at FOUS4 all run a pre-purchase video layer between cold traffic and checkout. Yours is missing on both surfaces.</p>
-<div class="fix"><strong>The Lift</strong>An 8-12 minute homepage VSL filmed in your existing studio aesthetic, plus a shorter trailer above the Teachable Sign Up. Daily-live-trade opening, the Learn-Plan-Profit thesis, three LPP graduate case studies, the curriculum walk-through with a Spanish-CC variant, and the natural close into LPP 3.0 or the watchlist opt-in below it. Lift compounds against every YouTube viewer who lands on learnplanprofit.net from a video CTA, every IG bio click, and every Forbes-backed search visitor.</p></div>
-</div>
+    <div class="piece-grid">
+      <div class="piece-card">
+        <div class="impact-tag">Piece 01 &middot; Highest-Leverage Pre-Sell</div>
+        <span class="num">01</span><h3>The 5-7 minute VSL on learnplanprofit.net + the Teachable storefront.</h3>
+        <p>The buy decision currently happens on a static text-and-image page. No video. No analyst voice. No three-step Learn Plan Profit walk before the Sign Up button. 1.2M YouTube subscribers and 294K IG followers convert (or do not) on bullet points. The fix is a 5-7 minute VSL filmed at the Techbuds Trading HQ, embedded on the homepage and above the Teachable curriculum bullets. Spanish variant filmed the same day.</p>
+        <div class="service-line">We build the 5-7 minute VSL that pre-sells LPP for the right buyer. Script, direct the record, edit the cut, embed on both surfaces, set captions. The voice on screen is Ricky's.</div>
+        <p class="impact">Compounds against every YouTube CTA, every IG link-in-bio click, and every Spanish-language entry point.</p>
+      </div>
 
-<div class="gap-card reveal">
-<span class="gap-tag critical">Critical</span>
-<h3>No Tier Above The $699 Learn Plan Profit Course</h3>
-<p>The current ladder ends at the $699 LPP 3.0 lifetime course. Above that, there's no cohort, no mastermind, no funded-trader operator program, no application-gated tier, no live-trade mentorship priced and packaged. LPP graduates who have cleared the curriculum, traded six months consistently, and are ready to scale account size and capital deployment have nowhere to go inside the brand. The operators who run senior tiers above their flagship course (Ross Cameron's Inner Circle at $9,997 application-only, Mark Minervini's Master Trader Program at $4-5K plus $6K/year Private Access, Tim Sykes' Millionaire Challenge at $3-5K with phone-gate, Cameron Fous at $1,997 plus a private mentorship tier) all keep the senior tier visible and pre-priced. Yours doesn't exist, and the warmest list for it (the 1,000+ traders inside the LPP Group Chat plus 1.6M+ YouTube subscribers) currently has no upgrade path.</p>
-<div class="fix"><strong>The Lift</strong>The Funded Trader Operator Cohort. Quarterly intakes of 6-8 verified-trading LPP alumni at $20K-$25K per seat. Two-day in-person intake at the Techbuds Trading HQ in Arizona plus 90-day implementation cohort. Application-only with a verified trading-record gate. Sells warm off the LPP Group Chat alumni base. Bilingual seats welcome (English and Spanish in-room support). Produces case studies that compound back into LPP marketing.</div>
-</div>
+      <div class="piece-card">
+        <div class="impact-tag">Piece 02 &middot; The Qualification Step</div>
+        <span class="num">02</span><h3>The 90-second readiness scorecard between the audience and the buy.</h3>
+        <p>The recurring third-party criticism of LPP is fit mismatch: "good for beginners, less useful once you are already trading," "no clear next step." That is not a content problem. Anyone with a card can buy regardless of where they are on the readiness curve. The fix is a 10-question quiz that returns Too Early, Ready For LPP, or Ready For The Cohort plus a 3-line bottleneck readout. Captures email. Tags by capital, language, and prior trading experience. The scorecard is the upstream router.</p>
+        <div class="service-line">We install the "Are You Ready For Day Trading?" scorecard that filters before checkout. Question logic, scoring algorithm, routing rules, bottleneck readouts, email tagging. The recommendations route through Ricky's three-step frame.</div>
+        <p class="impact">Filters fit-mismatched buyers out of LPP, lifts review quality downstream, captures email at scale for the first time.</p>
+      </div>
 
-<div class="gap-card reveal">
-<span class="gap-tag high">High Impact</span>
-<h3>No Lead-Magnet Page Capturing Email At Scale</h3>
-<p>There is no /watchlist, /free, /cheatsheet, or /webinar opt-in on learnplanprofit.net. The free TOFU layer (the daily 9:30 AM EST YouTube live, the YouTube channel itself, the IG content) does not route into an email list at scale. Cold YouTube and IG traffic that doesn't immediately buy LPP at $699 leaves with no email capture, no nurture, no second-chance attach. The bilingual angle is also unmonetised at the TOFU layer: zero Spanish-language opt-in despite Spanish-CC infrastructure already shipping inside the LPP 3.0 curriculum. The operators who scale email lists from social audiences (Andrew Aziz, Stephen Burns, Cameron Fous) all run a single dedicated TOFU lead magnet page off the bio link, capturing email before the buy decision.</p>
-<div class="fix"><strong>The Lift</strong>A dedicated learnplanprofit.net/watchlist landing page (English) and learnplanprofit.net/lista (Spanish) with a single conversion goal: email opt-in for the weekly stock watchlist or the daily-trade cheat-sheet. IG bio link rewires to that page. Segmented email infrastructure layered behind it: new-subscriber 8-email indoctrination flow into LPP 3.0, behavioural trigger for daily-live-trade YouTube viewers, and re-engagement against unconverted opt-ins after 60 days. Captures the slice of 294K IG followers and 1.6M+ YouTube subscribers who would convert into email but currently leave without a touchpoint.</div>
-</div>
-</div>
-</div>
-</section>
+      <div class="piece-card">
+        <div class="impact-tag">Piece 03 &middot; The Mid-Tier Mentorship</div>
+        <span class="num">03</span><h3>The LPP Operator Cohort - the unfilled slot between the course and the higher-touch lane.</h3>
+        <p>The 1,000+ LPP Group Chat alumni are the warmest possible list for the tier above the course and currently have no upgrade path. Every peer in the category fills this slot. The Techbuds Trading HQ is the moat. No other operator at this audience tier has a physical in-person facility already running. Format: 6-8 verified day traders, application-gated via Typeform, mid-tier mentorship pricing, 2-day in-person at the Arizona HQ plus a 90-day implementation runway. Bilingual seats welcome.</p>
+        <div class="service-line">We build the application and landing for the LPP Operator Cohort. Cohort landing copy, Typeform application, scorecard-to-cohort routing, post-application email sequence, alumni surface. Ricky teaches the cohort.</div>
+        <p class="impact">Respects the beginner-first brand. Positioned as the natural next step for the LPP graduate ready to scale account size with risk discipline.</p>
+      </div>
 
-<section>
-<div class="container">
-<div class="eyebrow reveal">Market Context</div>
-<h2 class="reveal">Where Operators At Your Tier Are Already Pricing</h2>
-<p class="section-sub reveal">Five peers running flagship-to-mastermind ladders in day-trading education. The senior tier is established. None of them publicly run 1.6M+ verified subscribers with a Forbes-backed bilingual beginner-first positioning and a physical Arizona HQ.</p>
-
-<div class="market-table">
-<div class="market-row reveal">
-<div>
-<div class="market-name">Ross Cameron (Warrior Trading)</div>
-<div class="market-price">Inner Circle $9,997 one-time, application-only</div>
-</div>
-<div class="market-note">Direct comp on offer architecture: free YouTube content into a paid academy into an application-gated senior tier. Inner Circle is capped at ~100 traders, 12-month direct work with the Warrior team. Proves the application + premium-tier model in day trading specifically. Your subscriber base sits multiples above Warrior's reach, with stronger beginner-first and bilingual positioning that supports a tier above $9,997.</div>
-</div>
-
-<div class="market-row reveal">
-<div>
-<div class="market-name">Mark Minervini (Master Trader)</div>
-<div class="market-price">Master Trader Program $4-5K + Private Access $6K/year</div>
-</div>
-<div class="market-note">5-day in-person workshop at $4-5K plus a recurring Private Access subscription at $6K/year. Different niche specificity (Minervini's SEPA methodology versus your daily-live-trade approach), same architecture: in-person premium plus recurring senior-tier access. Useful structural benchmark for the Arizona-HQ in-person cohort plus alumni community model.</div>
-</div>
-
-<div class="market-row reveal">
-<div>
-<div class="market-name">Tim Sykes (Millionaire Challenge)</div>
-<div class="market-price">~$3-5K/yr · application + phone gate</div>
-</div>
-<div class="market-note">Different positioning (penny stocks, high-volatility), same architecture: paid challenge program with application + 30-min phone qualifier on top of a paid course library. Proves the application-gate model converts in the day-trading consumer space. Sykes runs at brand reach below yours, and his offer ladder demonstrates the senior tier is a category norm, not a category novelty.</div>
-</div>
-
-<div class="market-row reveal">
-<div>
-<div class="market-name">Cameron Fous (FOUS4)</div>
-<div class="market-price">FOUS4 $1,997 + private FOUS Trading System mentorship</div>
-</div>
-<div class="market-note">$1,997 30-hour course plus a private mentorship tier sold off-page at undisclosed pricing. Closest peer on a "core course plus opaque senior tier" architecture. Useful tell: even at his audience scale, Fous already runs a senior tier. Yours is the most glaring gap in the category at your subscriber size.</div>
-</div>
-
-<div class="market-row reveal">
-<div>
-<div class="market-name">Andrew Aziz (Bear Bull Traders)</div>
-<div class="market-price">Elite Annual $1,099/yr</div>
-</div>
-<div class="market-note">Closest peer on subscription pricing ($1,099 versus your $699 lifetime LPP). No public premium tier above the Elite Annual. Useful baseline: he runs at substantially lower YouTube reach than you and prices the recurring tier above $699. Your senior-tier ceiling is structurally above his because of the audience, the bilingual reach, and the Arizona HQ asset.</div>
-</div>
-</div>
-
-<div class="market-callout reveal">
-Every name above runs a senior tier or pre-priced premium intake. $20K-$25K is achievable above Cameron's $9,997 anchor when the cohort is application-gated, capped at 6-8 verified-trading operators, and includes two days in person at a real facility plus 90-day implementation. None of them publicly own <strong>1.6M+ subscribers, daily live-trade transparency, bilingual English/Spanish reach, and a physical Arizona trading HQ already in operation</strong>. The Funded Trader Operator Cohort is not invented. It's the slot the market already prices, just unfilled by you.
-</div>
-
-<div class="moat-callout reveal">
-<div class="moat-eyebrow">Your Moat, In One Sentence</div>
-<p>The bilingual, beginner-first, transparency-first day trader. Not "small accounts," not "penny stocks," not "make money fast." <strong>The trader who built a 1.6M+ subscriber audience by trading live every market open at 9:30 AM EST in front of anyone with a YouTube account, in English and Spanish, from a physical trading HQ in Arizona.</strong> Every newer operator launching a $497 small-account program is running variations of the daily-live format you helped popularise. The premium tier above all of them is not for someone copying the niche. It's for the operator with the daily-live receipts, the bilingual reach, and the physical room.</p>
-</div>
-</div>
+      <div class="piece-card">
+        <div class="impact-tag">Piece 04 &middot; The Daily-Live Capture</div>
+        <span class="num">04</span><h3>The 9:30 AM EST live is the largest unmonetised retention surface in the funnel.</h3>
+        <p>Five mornings a week, the deepest transparency hook in the day-trading-education category fires into the void. No pre-live opt-in. No post-live recap email. No retargeting pixel built off the live URL. Every attendee who shows up, watches, and leaves is invisible to nurture. The fix is a two-part install: a /watchlist landing capturing email pre-live, plus a daily 3-bullet recap email sent post-live. Bilingual /lista variant for the Spanish-speaking slice.</p>
+        <div class="service-line">We write the email sequence that retains the live-session attendees. Pre-live watchlist opt-in, daily recap template, segmentation tags, retargeting pixel wiring, English and Spanish variants. The watchlist content is Ricky's.</div>
+        <p class="impact">Builds the warmest possible audience for any future paid-media spend without changing the daily-live cadence.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section>
-<div class="container">
-<div class="eyebrow reveal">Asset Ownership</div>
-<h2 class="reveal">What Each YouTube-To-Watchlist Visitor Actually Produces</h2>
-<p class="section-sub reveal">Same YouTube traffic. Same IG audience. Different number of conversion events the asset triggers downstream once the ladder is built.</p>
+  <div class="container">
+    <div class="section-eyebrow">The Compare</div>
+    <h2 class="section-title">What sits where, <em>before and after.</em></h2>
 
-<div class="asset-table reveal">
-<div class="asset-row asset-header">
-<div></div>
-<div class="asset-col-label">Per visitor today</div>
-<div class="asset-col-label asset-built-label">Per visitor in this build</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">Email captured</div>
-<div class="asset-val asset-today">No (no opt-in page exists)</div>
-<div class="asset-val asset-built">Yes (English + Spanish landing, segmented)</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">Pre-purchase video bridge</div>
-<div class="asset-val asset-today">None on either page</div>
-<div class="asset-val asset-built">8-12 min VSL on LPP page + Teachable trailer</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">LPP 3.0 upsell path</div>
-<div class="asset-val asset-today">Direct Teachable checkout</div>
-<div class="asset-val asset-built">Indoctrination flow + LPP 3.0 buy-in</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">Premium cohort path</div>
-<div class="asset-val asset-today">Does not exist</div>
-<div class="asset-val asset-built">Funded Trader Operator Cohort live</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">Post-LPP continuity</div>
-<div class="asset-val asset-today">Lifetime access then static</div>
-<div class="asset-val asset-built">Cohort ascension or alumni community</div>
-</div>
-<div class="asset-row">
-<div class="asset-cat">Bilingual TOFU monetisation</div>
-<div class="asset-val asset-today">Spanish-CC inside paid course only</div>
-<div class="asset-val asset-built">Spanish opt-in landing + nurture flow</div>
-</div>
-</div>
-</div>
+    <div class="compare-grid">
+      <div class="compare-col">
+        <span class="comp-label">Current Funnel</span>
+        <h3>One step deep, static buy page.</h3>
+        <ul>
+          <li>Cold YouTube and IG traffic lands on learnplanprofit.net (text plus image)</li>
+          <li>No VSL on the homepage</li>
+          <li>No VSL on the Teachable storefront</li>
+          <li>No qualification step before checkout</li>
+          <li>Direct self-checkout on the course price</li>
+          <li>No tier above the course</li>
+          <li>Daily 9:30 AM EST live captures zero email</li>
+          <li>Spanish CC infrastructure exists, no Spanish funnel</li>
+        </ul>
+      </div>
+      <div class="compare-col future">
+        <span class="comp-label">Post-Install Funnel</span>
+        <h3>Four-piece infrastructure on top.</h3>
+        <ul>
+          <li>Cold traffic routes through the scorecard first</li>
+          <li>5-7 minute VSL hero on learnplanprofit.net (English plus Spanish)</li>
+          <li>VSL embedded above the Teachable curriculum bullets</li>
+          <li>Scorecard captures email and tags by readiness band, capital, language</li>
+          <li>Ready-for-LPP route surfaces the buy with the VSL pre-sell</li>
+          <li>Cohort-ready route routes to the application landing</li>
+          <li>Daily live opt-in plus post-live recap email cadence</li>
+          <li>Bilingual /lista variant for the Spanish-speaking audience</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section style="background:linear-gradient(180deg,transparent 0%,rgba(201,151,58,.03) 50%,transparent 100%)">
-<div class="container">
-<div class="eyebrow reveal">The System</div>
-<h2 class="reveal">Four Levers We'd Pull With You</h2>
-<p class="section-sub reveal">Optimisation and ascension, not introduction. Every lever plugs into infrastructure you already operate. Nothing here asks you to rebuild LPP, rebrand the YouTube channel, or move off Teachable.</p>
+<section style="background:linear-gradient(180deg,transparent,rgba(212,175,55,0.04),transparent)">
+  <div class="container">
+    <div class="section-eyebrow">The Install</div>
+    <h2 class="section-title">Less than 7 days <em>from kickoff.</em></h2>
+    <p class="section-sub">Ricky's only required time is the VSL record day plus the cohort first-cycle confirmation. The rest is parallel-built.</p>
 
-<div class="phase-block reveal">
-<div class="phase-num">Lever 01<span class="month">Month 1</span></div>
-<div class="phase-content">
-<h3>Lead-Magnet Page + LPP VSL + Bilingual Segmented Nurture</h3>
-<p style="margin-bottom:14px">First month builds the three missing pieces of the front-end funnel: the dedicated /watchlist landing page (with a /lista Spanish twin), the 8-12 minute VSL on the learnplanprofit.net homepage and a shorter trailer above the Teachable LPP 3.0 sales page, and the segmented email infrastructure behind both. All three compound off audiences and traffic you already produce, no new acquisition spend yet.</p>
-<ul>
-<li>Dedicated learnplanprofit.net/watchlist landing page built (single conversion goal: email opt-in for weekly watchlist), plus learnplanprofit.net/lista Spanish twin, IG bio link rewired to language-detected redirect</li>
-<li>8-12 minute VSL filmed and embedded above the learnplanprofit.net homepage CTA: daily-live-trade opening, Learn-Plan-Profit thesis, three LPP graduate case studies, curriculum walk-through with Spanish CC, close</li>
-<li>Shorter 3-5 minute trailer embedded above the Teachable LPP 3.0 Sign Up button</li>
-<li>Bilingual segmented email infrastructure: new-subscriber 8-email indoctrination flow into LPP 3.0 in English, mirrored Spanish flow, behavioural trigger for YouTube live-trade viewers, re-engagement flow against unconverted opt-ins at 60 days</li>
-<li>Cross-platform tracking layer: YouTube → /watchlist conversion rate, IG bio → email capture rate, /watchlist → LPP attach rate, all in one dashboard</li>
-<li>A/B test instrumentation built in from day one so we measure the lift, not hope for it</li>
-</ul>
-<div class="rev-line"><strong>Outcome</strong>Two new revenue lines (email-captured LPP buyers from /watchlist plus VSL-converted LPP buyers from existing learnplanprofit.net traffic) layered onto the existing Teachable funnel, plus the bilingual TOFU layer monetised for the first time. Conservative incremental lift compounds inside the funnel from week four onward, scaling further as Levers 02-04 ship.</div>
-</div>
-</div>
-
-<div class="phase-block reveal">
-<div class="phase-num">Lever 02<span class="month">Month 2</span></div>
-<div class="phase-content">
-<h3>Premium Tier Launch (Funded Trader Operator Cohort)</h3>
-<p style="margin-bottom:14px">Lever 02 introduces the $20K-$25K Funded Trader Operator Cohort, positioned as the post-LPP, ready-to-scale tier. Application-only, capped at 6-8 verified-trading operators per intake, quarterly cadence at the Techbuds Trading HQ in Arizona. Sold first to the 1,000+ traders inside the LPP Group Chat who have cleared the curriculum and traded six months consistently. The first cohort lands the largest single revenue line in the build.</p>
-<ul>
-<li>Funded Trader Operator Cohort positioning, sales page, and application flow built and live</li>
-<li>Application screening rubric calibrated to "LPP graduate or equivalent training, 6+ months consistent live trading record, ready for portfolio-level risk discipline at $25K-$250K+ scale"</li>
-<li>90-day post-event implementation programme structured (bi-weekly group calls plus 1-on-1 strategic access to Ricky and the Techbuds team)</li>
-<li>Outreach campaign to the 1,000+ traders inside the LPP Group Chat alumni base who've cleared the curriculum and want a senior tier</li>
-<li>First cohort dates locked at the Techbuds Trading HQ in Arizona, run-of-show handled by the build team</li>
-<li>Two-day in-person intake, AV, catering, breakouts, including a live trading session with Ricky on Day 1</li>
-<li>Bilingual seats welcome: English and Spanish in-room support available, Spanish-language application flow live in parallel</li>
-<li>Capstone deliverable each cohort member walks home with: a personal risk-management blueprint plus 90-day account-scaling plan</li>
-</ul>
-<div class="rev-line"><strong>Revenue Model</strong>6-8 seats per cohort @ $20-$25K · 4 cohorts/year · Conservative incremental: ~$420-$540K/yr. Sells warm off the LPP Group Chat alumni base.</div>
-</div>
-</div>
-
-<div class="phase-block reveal">
-<div class="phase-num">Lever 03<span class="month">Month 3</span></div>
-<div class="phase-content">
-<h3>Paid Acquisition Layer On Top Of Organic</h3>
-<p style="margin-bottom:14px">By Lever 03 the funnel converters are live (Lever 01) and the premium tier is producing case studies and revenue (Lever 02). Now the Lever 03 paid layer compounds against a funnel that converts measurably better than it did 90 days ago. Meta retargeting and YouTube pre-roll primary against your own audiences. LinkedIn for the Cohort tier specifically.</p>
-<ul>
-<li>Paid Meta retargeting against YouTube channel viewers and existing email list (warmest possible audiences) in English and Spanish</li>
-<li>YouTube pre-roll against your own channel subscribers and IG follower base, bilingual variants</li>
-<li>LinkedIn campaign for the Funded Trader Operator Cohort tier (operator audience, not consumer)</li>
-<li>Bank of 20-30 static and video ads written in your voice, shot in your existing studio aesthetic and at the Techbuds HQ</li>
-<li>Daily creative iteration, weekly performance review, monthly budget reallocation</li>
-<li>UTM and pipeline attribution layered into the dashboard from Lever 01</li>
-</ul>
-<div class="rev-line"><strong>Revenue Model</strong>Compounds Lever 01 lift. Conservative ROAS 3-5x on retargeting against YouTube viewer / LPP buyer audiences. Spend scales with measured conversion, not hope.</div>
-</div>
-</div>
-
-<div class="phase-block reveal">
-<div class="phase-num">Lever 04<span class="month">Month 4+</span></div>
-<div class="phase-content">
-<h3>Retention + Ascension Loop</h3>
-<p style="margin-bottom:14px">Lever 04 closes the loop. The LPP alumni community produces recurring revenue, referrals seed Cohort intake, and the retention layer feeds back into LPP renewals (or repeat Cohort applications). By month six the system runs on its own compound, with the build team in monitoring rather than build mode.</p>
-<ul>
-<li>Alumni community for LPP graduates ($97-$197/mo) with monthly programming, peer trading rooms, and Ricky access on a published cadence</li>
-<li>Referral and affiliate structure for past LPP alumni to bring in next-cohort applicants and LPP enrolments</li>
-<li>Repeat-buyer flow back into the Cohort for alumni who've outgrown the LPP curriculum</li>
-<li>Quarterly "state of the market" content drop to the alumni community, repurposed publicly afterwards</li>
-<li>Lifecycle email infrastructure across LPP, Cohort, alumni, and Spanish-language segments</li>
-</ul>
-<div class="rev-line"><strong>Revenue Model</strong>Recurring monthly community at scale plus repeat-buyer revenue. Ramps month four onward, becomes the durability layer underneath the cohort revenue.</div>
-</div>
-</div>
-</div>
+    <div class="install-grid">
+      <div class="install-day"><div class="day-label">Day 1</div><p>Brand colour lock. Voice calibration off a 30-min transcript. Scorecard questions drafted. Cohort name and price band locked.</p></div>
+      <div class="install-day"><div class="day-label">Day 2</div><p>VSL script v1 (English). Scorecard logic and routing wired. Cohort and watchlist landings wireframed.</p></div>
+      <div class="install-day"><div class="day-label">Day 3</div><p>VSL film day at Techbuds Trading HQ. Scorecard live on staging. Cohort landing copy v1.</p></div>
+      <div class="install-day"><div class="day-label">Day 4</div><p>Spanish VSL filmed. Scorecard QA. Watchlist landing built. Daily-live opt-in surface built.</p></div>
+      <div class="install-day"><div class="day-label">Day 5</div><p>VSL embeds live on learnplanprofit.net and Teachable. Scorecard public. Cohort Typeform live. Watchlist and lista landings live.</p></div>
+      <div class="install-day"><div class="day-label">Day 6</div><p>Post-cohort-application email sequence loaded. Daily-live recap email template loaded. Segmentation tags wired.</p></div>
+      <div class="install-day"><div class="day-label">Day 7</div><p>Full funnel walkthrough. Cohort first-cycle date locked. Kickoff campaign drafted.</p></div>
+    </div>
+  </div>
 </section>
 
 <section>
-<div class="container-narrow">
-<div class="eyebrow reveal">Sample</div>
-<h2 class="reveal">A Day Inside The Funded Trader Operator Cohort</h2>
-<p class="section-sub reveal">Day 1 of the in-person intake at the Techbuds Trading HQ in Arizona. Day 2 covers private breakouts, peer portfolio reviews, and the 90-day implementation kickoff.</p>
+  <div class="container">
+    <div class="section-eyebrow">The Deliverables</div>
+    <h2 class="section-title">The full plan, <em>broken into 10 documents.</em></h2>
+    <p class="section-sub">Each piece below is a static document. None require a sales call to read. Built so the plan stands on its own.</p>
 
-<div class="agenda-block reveal">
-<div class="agenda-item">
-<div class="agenda-time">8:30 AM</div>
-<div class="agenda-content">
-<h4>Open + The Frame</h4>
-<p>Why this room. Why the size. What every operator in here ships home with by Sunday night. Pre-market open optional, scoreboards on the wall.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">9:30 AM</div>
-<div class="agenda-content">
-<h4>Live Market Open With Ricky</h4>
-<p>Trade the open live with Ricky, in the same room he runs the daily YouTube live from. Same screens, same setups, same daily-live discipline. The cohort sits inside the room while the open runs.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">11:30 AM</div>
-<div class="agenda-content">
-<h4>Live Account Audits</h4>
-<p>Each operator brings a real broker statement. The room and Ricky tear it apart. Setup quality, position sizing, drawdown patterns, win-rate math. Most useful 90 minutes most traders spend in a year.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">1:30 PM</div>
-<div class="agenda-content">
-<h4>Account-Scaling Math At Capital Tiers</h4>
-<p>What survives at $25K, $250K, $1M+ versus what only works on a small account. Position sizing under the new constraints, capital deployment cadence, the math behind the daily-live discipline at scale.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">3:00 PM</div>
-<div class="agenda-content">
-<h4>Risk-Discipline Workshop</h4>
-<p>Daily-loss circuit breakers, drawdown thresholds, recovery protocol, journal infrastructure, weekly review. The Learn-Plan-Profit operating system applied to each cohort member's account.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">4:30 PM</div>
-<div class="agenda-content">
-<h4>Operator Roundtable</h4>
-<p>The room talks. No script. Each operator brings the one decision they're stuck on right now. Ricky runs the room, the cohort gets answers. Bilingual English-Spanish, both directions.</p>
-</div>
-</div>
-<div class="agenda-item">
-<div class="agenda-time">5:30 PM</div>
-<div class="agenda-content">
-<h4>Day 1 Wrap + Cohort Dinner</h4>
-<p>Cohort dinner at a venue near the Techbuds HQ. Off-script, peer-to-peer, every operator gets time at the table with Ricky.</p>
-</div>
-</div>
-</div>
-</div>
+    <div class="deliverables-grid">
+      <div class="del-card"><div class="tag">Research</div><h3>Funnel + Audience Research</h3><p>What is observable on learnplanprofit.net, the Teachable storefront, the IG and YouTube bios, and the third-party review ecosystem.</p><a href="research.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Diagnosis</div><h3>Bottleneck Analysis</h3><p>The four-piece structural map. One sentence on each gap, the fix, the year-1 floor math, what AG1 builds.</p><a href="bottleneck-analysis.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Blueprint</div><h3>Funnel Blueprint</h3><p>The current funnel, the target funnel, the four installs sequenced, what sits where post-install.</p><a href="funnel-blueprint.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Copy</div><h3>Copy Strategy</h3><p>Voice rules, niche-bans (the trading-education vocabulary that breaks the brand), positioning frame, hero claims locked across the package.</p><a href="copy-strategy.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Distribution</div><h3>Content Strategy</h3><p>How the existing YouTube, IG, and TikTok engine routes to the scorecard. No new content load on Ricky.</p><a href="content-strategy.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">VSL</div><h3>VSL Preview Script</h3><p>Section-by-section script for the 5-7 minute pre-sell VSL. English variant. Spanish mirrors line-for-line.</p><a href="vsl-preview.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Email</div><h3>Email Sequence</h3><p>Three sequences: scorecard nurture (forked by score band), post-cohort-application, daily-live recap.</p><a href="email-sequence.md">Read &rarr;</a></div>
+      <div class="del-card"><div class="tag">Landing</div><h3>Sample Landing Page</h3><p>The LPP Operator Cohort landing page sample, built in AG1 brand colours. Brand colours and copy lock with Ricky day one.</p><a href="landing-page.html">View &rarr;</a></div>
+      <div class="del-card"><div class="tag">Outreach</div><h3>Outreach Copy</h3><p>The DM, the email, the day-4 bump, the day-8 channel switch, the day-14 close-loop. Cold first-touch register.</p><a href="outreach.md">Read &rarr;</a></div>
+    </div>
+  </div>
 </section>
 
 <section>
-<div class="container">
-<div class="eyebrow reveal">Revenue Projection</div>
-<h2 class="reveal">What This Adds On Top Of What You Already Run</h2>
-<p class="section-sub reveal">Incremental year-one lift, layered on top of current LPP 3.0 revenue and the existing LPP Group Chat. None of these numbers cannibalise existing income lines.</p>
+  <div class="container">
+    <div class="section-eyebrow">A Note On Tone</div>
+    <h2 class="section-title">Investment-niche register, <em>every surface.</em></h2>
+    <p class="section-sub">The day-trading-education space is under active SEC and FTC scrutiny. Every public surface in this package stays at the level of risk discipline and operator development. No income claims. No P&amp;L promises. No "make $X with me" framing. The cohort sells operator development, not signals or returns. The scorecard filters fit-mismatched buyers before checkout, which lifts review quality at the source.</p>
 
-<div class="rev-table reveal">
-<div class="rev-row">
-<div class="rev-stream"><strong>Lever 01: Lead-magnet page + LPP VSL + bilingual segmented nurture</strong>Email-captured LPP buyers from /watchlist plus VSL-converted LPP buyers from existing learnplanprofit.net traffic, plus first-time bilingual TOFU monetisation</div>
-<div class="rev-amount">~$140,000+</div>
-</div>
-<div class="rev-row">
-<div class="rev-stream"><strong>Lever 02: Funded Trader Operator Cohort</strong>4 cohorts/yr · 6 seats avg @ $17,500 (founder-tier blended)</div>
-<div class="rev-amount">$420,000</div>
-</div>
-<div class="rev-row">
-<div class="rev-stream"><strong>Levers 03 + 04: Paid Layer + Alumni Community</strong>Ramps month 4-6 onward</div>
-<div class="rev-amount">upside</div>
-</div>
-<div class="rev-total">
-<div class="rev-total-label">Year-One Floor (Incremental)</div>
-<div class="rev-total-amount">~$560K</div>
-</div>
-<div class="rev-caveat"><strong>How we got here</strong>Conservative math: a /watchlist landing page captures email at meaningfully higher rates than zero opt-in pages, and an 8-12 min VSL on the learnplanprofit.net homepage lifts cold-traffic checkout conversion against the current text-and-image page. 6-seat first cohort sits at the lower end of the $20-$25K range. Real numbers calibrate against your actual funnel volume on the call.</div>
-</div>
-
-<div class="rev-note reveal">
-This is <strong>incremental on top of</strong> your existing LPP 3.0 revenue and the existing LPP Group Chat, not a replacement of either. Lever 01 compounds your current funnel through better front-end conversion. The Funded Trader Operator Cohort is a tier you don't currently sell publicly. The paid layer and alumni community are durability layers that ramp into year two.
-</div>
-
-<div class="rev-table premium-table reveal">
-<div class="premium-eyebrow">Premium-Only Ceiling</div>
-<p style="color:var(--muted);font-size:15px;margin-bottom:20px;max-width:none">Same plan, dialled up. Higher Lever 01 conversion lift, premium-tier Cohort pricing, paid layer running at scale by month six.</p>
-<div class="rev-row">
-<div class="rev-stream"><strong>Lever 01 (premium lift)</strong>VSL conversion rate at the upper end · /watchlist email capture at scale · deeper LPP attach rate · Spanish-language opt-in matures</div>
-<div class="rev-amount">~$320,000+</div>
-</div>
-<div class="rev-row">
-<div class="rev-stream"><strong>Funded Trader Operator Cohort (premium)</strong>4 cohorts/yr · 8 seats avg @ $25,000</div>
-<div class="rev-amount">$800,000</div>
-</div>
-<div class="rev-row">
-<div class="rev-stream"><strong>Alumni Community + Paid Layer (mature)</strong>Months 6-12 ramp</div>
-<div class="rev-amount">$220,000+</div>
-</div>
-<div class="rev-total">
-<div class="rev-total-label">Year-One Ceiling (Incremental)</div>
-<div class="rev-total-amount">~$1.3M</div>
-</div>
-<div class="rev-caveat"><strong>How we got here</strong>Premium math: stronger VSL lift (better script, sharper bilingual segmentation), 8-seat cohort at the top of the $25K range, alumni community at 1,000-1,500 paying members by month 12. Real numbers calibrate to your actual conversion baselines on the call.</div>
-</div>
-</div>
+    <div class="risk-callout">
+      <span class="risk-label">Investment-Niche Disclaimer</span>
+      <p>Not financial advice. Trading involves substantial risk. Results vary by capital, market conditions, and operator execution. The quiz, the course, and the cohort are educational. Nothing in this hub is a trade recommendation or a return guarantee.</p>
+    </div>
+  </div>
 </section>
 
-<section>
-<div class="container">
-<div class="eyebrow reveal">The Picture</div>
-<h2 class="reveal">Two Versions Of Q4 2026</h2>
-<p class="section-sub reveal">Same starting point. Same brand. Different operating system underneath.</p>
-
-<div class="contrast-grid">
-<div class="contrast-card current reveal">
-<div class="contrast-tag">If Nothing Changes</div>
-<h3>Q4 2026, Status Quo</h3>
-<ul>
-<li>LPP 3.0 still selling steady on a text-and-image homepage and a Teachable bullet list, no VSL on either</li>
-<li>YouTube → checkout traffic still bouncing without a video bridge</li>
-<li>No /watchlist or /lista opt-in capturing email from cold IG, YT, or TikTok</li>
-<li>No premium tier above the $699 LPP course</li>
-<li>LPP graduates still locked in lifetime access with no upgrade path</li>
-<li>Newer $497 small-account programmes continuing to copy the daily-live format</li>
-<li>Spanish-language audience converting (or not) entirely on the English page</li>
-</ul>
-</div>
-<div class="contrast-card future reveal">
-<div class="contrast-tag">If We Build This</div>
-<h3>Q4 2026, System Live</h3>
-<ul>
-<li>VSL on the learnplanprofit.net homepage and Teachable trailer lifting cold-traffic conversion measurably</li>
-<li>Dedicated /watchlist and /lista landing pages capturing email at scale from IG, YT, TikTok</li>
-<li>Bilingual segmented nurture cycling LPP alumni into the Cohort and prospects into the LPP course</li>
-<li>Two Funded Trader Operator Cohorts already run at the Techbuds HQ, third sold</li>
-<li>Alumni community billing recurring revenue every month</li>
-<li>Year-one incremental in the $560K-$1.3M+ range, conservative</li>
-<li>The premium tier above every $497 small-account programme copying the daily-live format is yours, productised</li>
-</ul>
-</div>
-</div>
-</div>
+<section class="final-cta">
+  <div class="container-narrow">
+    <h2>If the daily live is the voice, <em>the install is the funnel under it.</em></h2>
+    <p>20-minute call to walk the four pieces, the install timeline, and the floor math against your actual conversion data. No pitch on the call. Walk the plan, decide after.</p>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary">Walk The Plan With Andrei</a>
+    <p class="tagline">Build the bridge between the daily live and the buy.</p>
+  </div>
 </section>
 
-<section style="background:linear-gradient(180deg,transparent 0%,rgba(201,151,58,.03) 50%,transparent 100%)">
-<div class="container">
-<div class="eyebrow reveal">Who's Building This</div>
-<h2 class="reveal">Operator-Led, Agent-Powered</h2>
-<p class="section-sub reveal">Direct accountability through Andrei. Backed by the most current AI agent stack on the market and a UK production network. The build moves at agent-velocity, not agency-velocity.</p>
-
-<div class="proof-grid">
-<div class="proof-card reveal">
-<h3>Andrei Givero</h3>
-<div class="role">Founder · AG1 Consulting</div>
-<p>UK-based operator. Background is direct-response copy, paid media, and high-ticket coaching launches. Specialty contributions: VSL scripting and production, segmented bilingual email infrastructure, paid retargeting against warm audiences, premium-tier launch architecture for operators with established flagship programmes. Direct point of accountability through the build, the launch, and the first revenue cycle.</p>
-</div>
-<div class="proof-card reveal">
-<h3>The AG1 Stack</h3>
-<div class="role">10+ AI Agents · Production Network</div>
-<p>AG1 ships with the most current AI agent stack on the market: 10+ purpose-built agents pre-deployed across VSL drafting, ad creative iteration, segmented email sequencing, audience research, copy review, and dashboard monitoring. Plus a UK-based production, editing, and paid-media network for the work that needs human hands. What takes a hand-rolled agency a quarter takes the AG1 stack a month, with the same operator on every call.</p>
-</div>
-</div>
-</div>
-</section>
-
-<section style="background:linear-gradient(180deg,transparent 0%,rgba(201,151,58,.04) 50%,transparent 100%)">
-<div class="container">
-<div class="eyebrow reveal">Verified Client Results</div>
-<h2 class="reveal">Receipts, Not Headlines</h2>
-<p class="section-sub reveal">One client. Six months. Oct 2025 - Mar 2026. Numbers below were pulled from Stripe and revenue-attribution dashboards on the build side. Live screenshots and source dashboards walked through on the call.</p>
-
-<div class="cred-grid">
-<div class="cred-card reveal"><div class="cred-stat">$742K+</div><div class="cred-label">Revenue generated, one client, 6 months</div></div>
-<div class="cred-card reveal"><div class="cred-stat">+101%</div><div class="cred-label">Gross volume growth vs. prior period</div></div>
-<div class="cred-card reveal"><div class="cred-stat">+72%</div><div class="cred-label">Total revenue growth vs. prior period</div></div>
-<div class="cred-card reveal"><div class="cred-stat">$306K</div><div class="cred-label">Succeeded payments, single client window</div></div>
-</div>
-
-<div class="cred-disclaimer reveal"><strong>Note</strong> · Client identity withheld under NDA. Live screenshots and source dashboards walked through on the call.</div>
-</div>
-</section>
-
-<section>
-<div class="container-narrow">
-<div class="eyebrow reveal">The Offer</div>
-<h2 class="reveal">Here's What Working Together Looks Like</h2>
-<p class="section-sub reveal">Scope is fixed. Everything ships in the first 90 days. No add-ons sold separately, no surprise line items, no scope creep.</p>
-
-<div class="offer-block reveal">
-<h3>Scope</h3>
-<p class="scope-intro">Everything below is in. We come in for a 90-day build, hand you a launched optimisation layer, and walk you through how to run it without us if you'd rather take it in-house from there.</p>
-<ul class="scope-list">
-<li>Lever 01 front-end build: dedicated /watchlist + /lista landing pages, 8-12 minute homepage VSL filmed and embedded, Teachable trailer, bilingual segmented nurture infrastructure</li>
-<li>Lever 02 premium tier: Funded Trader Operator Cohort built, sales page live, first cohort sold off LPP Group Chat alumni outreach</li>
-<li>Lever 03 paid layer: Meta + YouTube pre-roll + LinkedIn, 20-30 ad creatives in your voice (English + Spanish), daily iteration</li>
-<li>Lever 04 retention loop: alumni community structure, referral architecture, repeat-buyer flows</li>
-<li>Application screening rubric and operator-fit scoring for the Cohort (verified-trading record gate)</li>
-<li>Two-day in-person Cohort event production for the first intake at the Techbuds Trading HQ in Arizona, AV, run-of-show, bilingual room support</li>
-<li>Conversion dashboard live from week one (cold-traffic conversion, /watchlist opt-in rate, LPP attach rate, Cohort application rate, paid ROAS)</li>
-<li>VSL script written against your voice from the YouTube archive and your own quotes before filming, English + Spanish CC variant</li>
-<li>All copy and creative reviewed against your published bilingual beginner-first brand voice before publishing</li>
-<li>AG1's AI agent stack (10+ purpose-built agents) pre-deployed across the workflow: VSL drafting, ad iteration, email sequencing, audience research, copy review, dashboard monitoring</li>
-<li>Andrei on the calls through launch and the first full revenue cycle</li>
-</ul>
-<div class="price-note">Investment is set on the call once we agree the plan fits.</div>
-</div>
-
-<div class="anti-hype reveal">
-<div class="anti-hype-eyebrow">What This Build Is Not</div>
-<ul class="anti-hype-list">
-<li>This is not an LPP rebuild. The product works, we don't touch the curriculum.</li>
-<li>This is not a YouTube content overhaul. Your channel cadence and daily-live discipline stay where they are.</li>
-<li>This is not a "drop the beginner-first positioning" play. The positioning is the moat. We build around it.</li>
-<li>This is not a six-figure-per-month-overnight pitch. The numbers above are conservative and they take a year to compound.</li>
-</ul>
-<p>What this build does promise is <strong>a VSL on your homepage, bilingual /watchlist + /lista lead-magnet pages, a premium Cohort tier sold first to your warmest alumni inside the LPP Group Chat, and a system you own end-to-end after 90 days</strong>. That's the floor. The ceiling and the durability layer ramp from there.</p>
-</div>
-</div>
-</section>
-
-<section style="background:linear-gradient(180deg,transparent 0%,rgba(201,151,58,.03) 50%,transparent 100%)">
-<div class="container-narrow">
-<div class="eyebrow reveal">Questions</div>
-<h2 class="reveal">The Ones An Operator At Your Stage Asks</h2>
-<p class="section-sub reveal">Short, direct answers. The longer ones we cover on the call.</p>
-
-<div class="reveal">
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Why would I run this with an outside operator instead of in-house?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>Because the team you have is already running the business. LPP is fulfilling and selling. The daily YouTube live is shipping every market open. The LPP Group Chat is moderated. Adding a 90-day VSL build, dedicated bilingual lead-magnet pages, a premium Cohort tier, and a paid acquisition layer on top of an already-loaded team is how those projects either get postponed by a year or get launched at half the quality. Outside operator is faster, cleaner, and exits when production hits steady state. We hand the system to your team after the launch cycle, not before.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How much of my time does this need?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>One day to film the LPP homepage VSL. One day to film the Funded Trader Operator Cohort positioning. Calendar holds for cohort delivery in Lever 02. The rest is build team work plus you reviewing the copy, creative, and pricing decisions before they ship. Most operators at your stage spend under 8 hours a month during the 90-day build, and under 2 hours a month after the system is in production.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Will the Cohort cannibalise LPP 3.0?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>No. The Cohort and LPP solve different problems. LPP is self-paced curriculum plus the Group Chat plus the daily live for traders earlier in the journey at $699 lifetime. The Cohort is operating-room access at the Techbuds HQ for traders who already cleared the curriculum, traded six months consistently, and are ready to scale account size and risk discipline at portfolio level. Different deliverable, different audience, different buying motion. Most Cohort applicants will be LPP graduates moving up the ladder, not net-new buyers choosing Cohort over LPP. Where there's overlap, the Cohort is the explicit "post-LPP" tier. It expands the ladder, it doesn't compete inside it.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How does the bilingual angle actually work in practice?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>LPP 3.0 already ships with Spanish CCs across the curriculum. The bilingual angle is real, just unmonetised at the TOFU layer. The build adds a Spanish opt-in landing (/lista), a Spanish nurture flow, Spanish ad variants in Lever 03, and Spanish in-room support for the Cohort. We do not invent a Spanish-language community that doesn't exist. We connect the Spanish-language audience that already watches your daily live to a Spanish-language opt-in path, then into the existing Spanish-CC curriculum. It's an extension of an asset you already ship, not a new product line.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What about the regulatory tone in day-trading education?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>Every line of cohort copy and ad copy gets reviewed against the FTC and SEC standards already established by the Warrior Trading settlement and the broader category enforcement context. No specific income claims, no P&L promises, no "make $X with me" framing. The Cohort is positioned as risk discipline plus operator development, not "make money fast." This is how you protect the brand and charge premium pricing in the same motion.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How quickly is there real revenue?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>Lever 01 VSL on the LPP homepage: first measurable conversion lift in week 4-6 once the page ships. /watchlist and /lista landing page email capture: measurable in week 2-3 once IG bio link rewires. Lever 02 first Cohort sells in month 2-3, runs in month 3-4. Lever 03 paid layer starts producing measurable ROAS by month 4. Lever 04 alumni community ramps from month 4 onward. Most of the year-one incremental lands in months 4-12, not month one.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What if the Cohort doesn't fill?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>The Cohort is sized at 6-8 seats first, sold to existing LPP Group Chat alumni (the warmest list for this offer that exists). If the first intake under-fills (say, 4 confirmed instead of 6), we don't push it into a half-empty room. We pause, sharpen the positioning and the application screen, push the date by 30-45 days, and try again with the second wave of alumni outreach plus any external warm sources we can verify. If after a second attempt the audience isn't there at the modelled price, we restructure the tier or move the budget into Lever 03 paid acquisition.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What if I want to stop after a Lever?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>You can stop at any Lever. After Lever 01 you own the /watchlist and /lista landing pages, the LPP VSL, and the bilingual segmented nurture as standalone lifts on your existing funnel. After Lever 02 you own the Cohort sales page, application flow, 90-day curriculum, and the first cohort revenue. After Lever 03 you own the paid acquisition system. Each Lever stands on its own as a fully shipped asset in case the rest stops being interesting to you.</p></div>
-</div>
-
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Why AG1 and not a larger agency?<div class="faq-toggle"></div></div>
-<div class="faq-a"><p>Two reasons. First, the build is specific. Most agencies sell the same growth playbook to every client (more ads, more content, more funnels). The work here is precise: a VSL on the LPP page, dedicated bilingual lead-magnet landings, a premium Cohort tier launched off the LPP Group Chat alumni base, a paid layer on top of an organic engine that already converts. Second, AG1 runs on the most current AI agent stack on the market: 10+ purpose-built agents pre-deployed across VSL drafting, ad creative iteration, segmented email sequencing, audience research, and copy review. The AG1 stack does in days what a 6-person hand-rolled agency does in weeks. You get the build velocity of a 10-person team with one direct point of accountability and no account-management layer between you and the work.</p></div>
-</div>
-</div>
-</div>
-</section>
-
-<section>
-<div class="container">
-<div class="cta-section reveal">
-<div class="eyebrow">Next Step</div>
-<h2>Twenty Minutes. Four Topics.<br>You Decide From There.</h2>
-<p style="margin-bottom:24px">Here's exactly what we cover on the call, in order.</p>
-<div class="call-agenda">
-<div class="call-agenda-item"><span class="call-agenda-num">01</span><span class="call-agenda-text">Which leak point we touch first, calibrated to your team's current roadmap and the LPP renewal cycle.</span></div>
-<div class="call-agenda-item"><span class="call-agenda-num">02</span><span class="call-agenda-text">Funded Trader Operator Cohort sizing, pricing tier, and which slice of LPP Group Chat alumni we'd target with the first intake outreach.</span></div>
-<div class="call-agenda-item"><span class="call-agenda-num">03</span><span class="call-agenda-text">Timing, kickoff date, and what your time commitment actually looks like over the 90-day build.</span></div>
-<div class="call-agenda-item"><span class="call-agenda-num">04</span><span class="call-agenda-text">What gets built, what stays in-house with your existing team, and what happens after the 90 days are up.</span></div>
-</div>
-<p style="margin-bottom:36px">The plan above is built around the funnel you already run. The numbers are conservative. The leak points are observable from outside. The only outstanding decision is whether the lift is worth a 20-minute conversation.</p>
-<a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary" target="_blank">Book A Call</a>
-<div class="cta-sign">- Andrei | AG1 Consulting</div>
-</div>
-</div>
-</section>
-
-<footer class="footer">
-<div class="container">
-<p>Built by AG1 Consulting · This page was created exclusively for Ricky Gutierrez · April 2026</p>
-</div>
+<footer>
+  <div class="container">
+    <p>AG1 Consulting Ltd &middot; Custom hub built for Ricky Gutierrez &middot; 2026</p>
+    <p class="footer-disclaimer">Not financial advice. Trading involves substantial risk. Results vary by capital, market conditions, and operator execution. The plan, the cohort, and the scorecard are educational. Nothing here is a trade recommendation or a return guarantee.</p>
+  </div>
 </footer>
 
-<a href="https://calendly.com/ag-copy/call-with-andrei" target="_blank" class="floating-cta">Book A Call</a>
-
 <script>
-const obs=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.1});
-document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
+(function(){
+  var v = document.getElementById('hero-video');
+  if(!v) return;
+  function load(){
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/m6ve62ve8UE?autoplay=1&rel=0';
+    iframe.setAttribute('allow','accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+    iframe.setAttribute('allowfullscreen','');
+    iframe.frameBorder = '0';
+    v.innerHTML = '';
+    v.appendChild(iframe);
+  }
+  v.addEventListener('click', load);
+  v.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); }});
+})();
 </script>
 </body>
 </html>
